@@ -19,7 +19,7 @@ This artifact links to: [An Automatic Refactoring Framework for Replacing Test-P
     
 ### Use JMocker:
 
-1. Clone a Java open source repository. E.g., [Directory-Server](https://github.com/apache/directory-server)
+1. Clone a Java open source repository. E.g., [JackRabbit](https://github.com/apache/jackrabbit)
 2. Import the open source project into Eclipse IDE.
 3. Add [Mockito dependency](https://mvnrepository.com/artifact/org.mockito/mockito-core/3.9.0) to pom files.
 4. Select software entities (Packages or Source Files) and detect refactoring candidates. <img src="detection.PNG" width="500">
