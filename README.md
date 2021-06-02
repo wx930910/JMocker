@@ -22,7 +22,7 @@ This artifact links to: [An Automatic Refactoring Framework for Replacing Test-P
 1. Clone a Java open source repository. E.g., [JackRabbit](https://github.com/apache/jackrabbit)
 2. Import the open source project into Eclipse IDE.
 3. Add [Mockito dependency](https://mvnrepository.com/artifact/org.mockito/mockito-core/3.9.0) to pom files.
-4. Select software entities (Packages or Source Files) and detect refactoring candidates. <img src="detection.PNG" width="500">
+4. Select software entities (Packages or Source Files) and detect refactoring candidates. We use [AuthorizableActionTest.java](https://github.com/apache/jackrabbit/blob/ed3124e5fe223dada33ce6ddf53bc666063c3f2f/jackrabbit-core/src/test/java/org/apache/jackrabbit/core/security/user/AuthorizableActionTest.java) as an example here.<br /><img src="detection.PNG" width="500">
 5. Select a refactoring candidate and start refactor. <br /> <img src="refactoring.PNG" width="400">
 6. **Expected Output:** After refactoring, the test class that inherit the production class is removed and the reference to the test class becomes the reference to a mock object.
 
