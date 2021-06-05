@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/371580595.svg)](https://zenodo.org/badge/latestdoi/371580595)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4902733.svg)](https://doi.org/10.5281/zenodo.4902733)
 
 # JMocker
 JMocker is an [Eclipse](https://www.eclipse.org/) Plugin to automatically identifies and replaces the usage of test to production inheritance by using [Mockito](https://site.mockito.org/), a well received mocking framework.
