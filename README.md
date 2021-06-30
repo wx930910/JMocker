@@ -5,7 +5,7 @@ JMocker is an [Eclipse](https://www.eclipse.org/) Plugin to automatically identi
 ## Artifact Description
 JMocker can help practitioners to improve the quality of the unit test cases in various aspects, including improving the cohesion/concise, readability/understandability and maintainability of unit test cases.
 
-This artifact links to: An Automatic Refactoring Framework for Replacing Test-Production Inheritance by Mocking Mechanism, FSE 2021.
+This artifact links to: [An Automatic Refactoring Framework for Replacing Test-Production Inheritance by Mocking Mechanism, FSE 2021][paper].
 
 ## How to use JMocker
 
@@ -28,3 +28,4 @@ This artifact links to: An Automatic Refactoring Framework for Replacing Test-Pr
 5. Select a refactoring candidate and start refactor. <br /> <img src="refactoring.PNG" width="400">
 6. **Expected Output:** After refactoring, the test class that inherit the production class is removed and the reference to the test class becomes the reference to a mock object.
 
+[paper]: https://2021.esec-fse.org/details/fse-2021-papers/59/An-Automatic-Refactoring-Framework-for-Replacing-Test-Production-Inheritance-by-Mocki
