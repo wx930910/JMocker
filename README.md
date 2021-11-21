@@ -5,7 +5,7 @@ JMocker is an [Eclipse](https://www.eclipse.org/) Plugin to automatically identi
 ## Artifact Description
 JMocker can help practitioners to improve the quality of the unit test cases in various aspects, including improving the cohesion/concise, readability/understandability and maintainability of unit test cases.
 
-This artifact links to: An Automatic Refactoring Framework for Replacing Test-Production Inheritance by Mocking Mechanism, FSE 2021.
+This artifact links to: [An Automatic Refactoring Framework for Replacing Test-Production Inheritance by Mocking Mechanism, FSE 2021][paper].
 
 ## How to use JMocker
 
@@ -21,10 +21,11 @@ This artifact links to: An Automatic Refactoring Framework for Replacing Test-Pr
     
 ### Use JMocker:
 
-1. Clone a Java open source repository. E.g., [JackRabbit](https://github.com/apache/jackrabbit)
-2. Import the open source project into Eclipse IDE.
+1. Clone a Java project repository. E.g., [JackRabbit](https://github.com/apache/jackrabbit)
+2. Import the project into the Eclipse IDE.
 3. Add [Mockito dependency](https://mvnrepository.com/artifact/org.mockito/mockito-core/3.9.0) to pom files.
 4. Select software entities (Packages or Source Files) and detect refactoring candidates. We use [AuthorizableActionTest.java](https://github.com/apache/jackrabbit/blob/ed3124e5fe223dada33ce6ddf53bc666063c3f2f/jackrabbit-core/src/test/java/org/apache/jackrabbit/core/security/user/AuthorizableActionTest.java) as an example here.<br /><img src="detection.PNG" width="500">
 5. Select a refactoring candidate and start refactor. <br /> <img src="refactoring.PNG" width="400">
 6. **Expected Output:** After refactoring, the test class that inherit the production class is removed and the reference to the test class becomes the reference to a mock object.
 
+[paper]: https://2021.esec-fse.org/details/fse-2021-papers/59/An-Automatic-Refactoring-Framework-for-Replacing-Test-Production-Inheritance-by-Mocki
